@@ -5,6 +5,10 @@ import { NumbersPageComponent } from './pages/numbers-page/numbers-page.componen
 import { UncommonPageComponent } from './pages/uncommon-page/uncommon-page.component';
 import { ProductsRoutingModule } from './products-routing.module';
 import { PrimeNgModule } from '../prime-ng/prime-ng.module';
+import { OrderComponent } from './pages/order/order.component';
+import { CanFlyPipe } from './pipes/can-fly.pipe';
+import { ToggleCasePipe } from './pipes/toggle-case.pipe';
+import { SortByPipe } from './pipes/sort-by.pipe';
 
 
 
@@ -12,7 +16,11 @@ import { PrimeNgModule } from '../prime-ng/prime-ng.module';
   declarations: [
     BasicsPageComponent,
     NumbersPageComponent,
-    UncommonPageComponent
+    UncommonPageComponent,
+    OrderComponent,
+    CanFlyPipe,
+    ToggleCasePipe,
+    SortByPipe
   ],
   imports: [
     CommonModule,
